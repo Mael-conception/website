@@ -142,7 +142,7 @@ h6,
     position: relative;
     margin-left: 25px;
     padding: 35px 0;
-    color: #FFFFFF;
+    color:  var(--light);
     font-size: 18px;
     font-weight: 600;
     outline: none;
@@ -151,7 +151,7 @@ h6,
 
 .sticky-top.navbar-dark .navbar-nav .nav-link {
     padding: 20px 0;
-    color: var(--light);
+    color: var(--primary);
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
