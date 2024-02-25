@@ -1,0 +1,15 @@
+{
+  "name": "mael-conception",
+  "version": "3.0.0",
+  "description": "We are a company that designs and develops websites and mobile applications for ambitious startups and SMEs.",
+  "scripts": {
+    "postcss": "npx tailwindcss -i ./ressources/styles/input.css -o ./ressources/styles/output.css --watch"
+  },
+  "keywords": [],
+  "repository": "https://github.com/Mael-conception/website.git",
+  "author": "vander makadi <vanotis720@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
