@@ -4,3 +4,6 @@
     --light: #F0F0F0;
     --dark: #091E3E;
 } */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
