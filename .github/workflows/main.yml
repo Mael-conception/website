@@ -5,13 +5,13 @@ on:
     branches:
       - tailusVersion # Replace 'main' with your branch name if different
 
-permissions:
-  contents: read
-  pages: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      pages: write
 
     steps:
       - name: Checkout code
