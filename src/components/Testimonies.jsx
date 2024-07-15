@@ -12,7 +12,7 @@ export default function Testimonies(props) {
             <div className="flex h-full flex-col justify-center space-y-4">
               <img
                 className="mx-auto h-20 w-20 rounded-full"
-                src="/images/avatars/second_user.webp"
+                src="/website/images/avatars/second_user.webp"
                 alt="user avatar"
                 height="220"
                 width="220"
@@ -36,7 +36,7 @@ export default function Testimonies(props) {
           <div className="rounded-3xl sm:flex sm:space-x-8 border border-gray-100 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 p-8 text-center shadow-2xl shadow-gray-600/10 dark:shadow-none">
             <img
               className="mx-auto h-20 w-20 rounded-full"
-              src="/images/avatars/first_user.webp"
+              src="/website/images/avatars/first_user.webp"
               alt="user avatar"
               height="220"
               width="220"
@@ -59,7 +59,7 @@ export default function Testimonies(props) {
           <div className="rounded-3xl sm:flex sm:space-x-8 border border-gray-100 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 p-8 text-center shadow-2xl shadow-gray-600/10 dark:shadow-none">
             <img
               className="mx-auto h-20 w-20 rounded-full"
-              src="/images/avatars/third_user.webp"
+              src="/website/images/avatars/third_user.webp"
               alt="user avatar"
               height="220"
               width="220"
