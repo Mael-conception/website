@@ -70,7 +70,7 @@ export default function About(props) {
             </div>
             <div className="md:5/12 lg:w-1/2">
               <img
-                src="images/pie.svg"
+                src="/images/pie.svg"
                 alt="image"
                 loading="lazy"
                 width=""

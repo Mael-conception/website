@@ -123,7 +123,7 @@ export default function Hero(props) {
                     <div className="flex justify-center space-x-4">
                       <img
                         className="w-6 h-6"
-                        src="images/slack.png"
+                        src="/images/slack.png"
                         alt="slack logo"
                         loading="lazy"
                         width="128"
@@ -142,7 +142,7 @@ export default function Hero(props) {
                     <div className="flex justify-center space-x-4">
                       <img
                         className="w-6 h-6"
-                        src="images/chat.png"
+                        src="/images/chat.png"
                         alt="chat logo"
                         loading="lazy"
                         width="128"
@@ -161,7 +161,7 @@ export default function Hero(props) {
                     <div className="flex justify-center space-x-4">
                       <img
                         className="w-6 h-6"
-                        src="images/zoom.png"
+                        src="/images/zoom.png"
                         alt="chat logo"
                         loading="lazy"
                         width="128"
@@ -203,7 +203,7 @@ export default function Hero(props) {
                     className="absolute scale-75 md:scale-110 inset-0 m-auto w-full h-full md:w-96 md:h-96 rounded-full rotate-45 bg-gradient-to-r from-primaryLight to-secondaryLight blur-3xl"
                   ></div>
                   <img
-                    src="images/globalization-cuate.svg"
+                    src="/images/globalization-cuate.svg"
                     className="relative w-full"
                     alt="wath illustration"
                     loading="lazy"
