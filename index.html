@@ -22,7 +22,23 @@
     <link rel="manifest" href="/assets/site.webmanifest">
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script async src="https://tally.so/widgets/embed.js"></script>
 
+    <script>
+        window.TallyConfig = {
+            "formId": "mJqQ9R",
+            "popup": {
+                "emoji": {
+                    "text": "👋",
+                    "animation": "wave"
+                },
+                "open": {
+                    "trigger": "time",
+                    "ms": 10000
+                }
+            }
+        };
+    </script>
     <style type="text/tailwindcss">
         @theme {
             --color-secondary-50: #fbf5ff;
@@ -176,360 +192,354 @@
         </div>
     </header>
     <main>
-        <main>
-            <section id="about" class="w-full bg-white py-16 pt-32 md:pt-0">
-                <div class="max-w-4xl m-auto px-6">
-                    <h2 class="text-3xl md:text-4xl font-extrabold text-gray-800 text-center mb-8 pt-4">
-                        À propos
-                    </h2>
-                    <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
-                        <div class="w-full text-gray-600">
-                            <p class="text-xl leading-relaxed mb-4 font-light">
-                                <span class="font-bold">Pourquoi Maël Conception ?</span> <br>
-                                Parce que chaque projet mérite une solution unique et
-                                adaptée.
-                                Je conçois des sites web et des applications mobiles qui reflètent l'essence de votre
-                                entreprise
-                                et captivent votre audience.
-                            </p>
-                            <p class="text-2xl leading-relaxed my-8 font-bold">
-                                Mon objectif est de transformer vos idées en outils numériques performants, en mettant
-                                en avant
-                                ce qui rend votre entreprise spéciale. Chaque détail compte pour créer une expérience
-                                utilisateur
-                                mémorable.
-                            </p>
-                            <p class="text-2xl md:text-4xl leading-relaxed mt-8">
-                                Ensemble, construisons des solutions qui feront briller votre entreprise et renforceront
-                                votre lien avec vos clients 🚀
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="services" class="w-full bg-gray-50 py-16">
-                <div class="max-w-6xl m-auto px-6">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                        <div class="rounded-xl">
-                            <div class="flex w-full bg-secondary-400 rounded-xl text-white rounded-full mb-4">
-                                <img src="./assets/graphics/announce.png" alt="announce icon" class="h-auto rounded-xl">
-                            </div>
-                            <div class="px-6">
-                                <h3 class="text-xl font-bold text-gray-800 mb-6">Mon expertise et mes services</h3>
-                                <ul class="flex flex-col gap-2 text-xl text-gray-600 font-extralight">
-                                    <li class="py-4 border-t border-gray-500">Conception de sites web</li>
-                                    <li class="py-4 border-t border-gray-500">Développement d'applications mobiles
-                                        (Android/iOS)</li>
-                                    <li class="py-4 border-t border-gray-500">Responsive Design (design adapté à tous
-                                        les écrans)</li>
-                                    <li class="py-4 border-t border-gray-500">Intégration de solutions e-commerce
-                                        (<span>paiement mobile money en afrique</span>)</li>
-                                    <li class="py-4 border-t border-gray-500">Optimisation et SEO (Search Engine
-                                        Optimization)</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="rounded-xl">
-                            <div class="flex w-full bg-secondary-400 rounded-xl text-white rounded-full mb-4">
-                                <img src="./assets/graphics/heart.png" alt="heart icon" class="h-auto rounded-xl">
-                            </div>
-                            <div class="px-6">
-                                <h3 class="text-xl font-bold text-gray-800 mb-6">Pourquoi me choisir ?</h3>
-                                <ul class="flex flex-col gap-2 text-xl text-gray-600 font-extralight">
-                                    <li class="py-4 border-t border-gray-500">
-                                        Je m'adapte à vos besoins et à votre budget pour vous proposer des solutions
-                                        sur-mesure.
-                                    </li>
-                                    <li class="py-4 border-t border-gray-500">
-                                        Je crée des solutions numériques qui <span class="font-bold">renforcent votre
-                                            image</span> de marque.
-                                    </li>
-                                    <li class="py-4 border-t border-gray-500">
-                                        <span class="font-bold text-md">Où que vous soyez, je m'adapte.</span> <br>
-                                        De la conception au développement, en passant par l'hébergement et le support
-                                        multilingue, je prends en charge toute la
-                                        partie technique pour que vous puissiez vous concentrer sur votre coeur de
-                                        métier.
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="w-full bg-white py-16">
-                <div class="max-w-6xl m-auto px-6 flex flex-col items-center">
-                    <h4 class="font-bold text-xl mb-4">Comment je procède ?</h4>
-                    <h3 class="font-extrabold text-5xl mb-4 text-center">Un process simple et efficace</h3>
-                    <div>
-                        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
-                            <div class="flex flex-col items-center">
-                                <div
-                                    class="w-32 h-32 flex mb-4 justify-center items-center bg-primary-300 rounded-full">
-                                    <h5 class="font-bold text-white text-5xl">1</h5>
-                                </div>
-                                <h4 class="font-bold text-xl">Analyse</h4>
-                                <p class="text-gray-600 text-center">
-                                    Je prends le temps de comprendre vos besoins et vos objectifs pour vous proposer
-                                    une solution adaptée.
-                                </p>
-                            </div>
-                            <div class="flex flex-col items-center">
-                                <div
-                                    class="w-32 h-32 flex mb-4 justify-center items-center bg-primary-300 rounded-full">
-                                    <h5 class="font-bold text-white text-5xl">2</h5>
-                                </div>
-                                <h4 class="font-bold text-xl">Conception</h4>
-                                <p class="text-gray-600 text-center">
-                                    Je crée un design unique et moderne qui met en
-                                    valeur votre entreprise et vos services.
-                                    Pas de surprise, que de la clarté.
-                                </p>
-                            </div>
-                            <div class="flex flex-col items-center">
-                                <div
-                                    class="w-32 h-32 flex mb-4 justify-center items-center bg-primary-300 rounded-full">
-                                    <h5 class="font-bold text-white text-5xl">3</h5>
-                                </div>
-                                <h4 class="font-bold text-xl">Développement</h4>
-                                <p class="text-gray-600 text-center">Je développe votre site web ou votre application
-                                    mobile en utilisant les dernières technologies pour une expérience optimale.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="offers" class="w-full bg-white bg-gray-50 py-16">
-                <div class="max-w-6xl m-auto px-6 flex flex-col items-center">
-                    <h4 class="font-bold text-xl">Mes offres</h4>
-                    <h3 class="font-extrabold text-5xl mb-4 text-center">Des solutions adaptées à vos besoins</h3>
-                    <div>
-                        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
-                            <div class="md:flex md:flex-col items-start border border-copper-200 p-4 py-8 rounded-xl">
-                                <p class="bg-copper-400 text-white py-1 px-4 rounded-full mb-4 flex ">
-                                    Site Vitrine (2-5 pages)
-                                </p>
-                                <p class="text-2xl">À partir de 750 USD</p>
-                                <p class="font-extralight text-gray-600 mt-4">
-                                    Parfait pour présenter votre activité de manière complète et qui vous ressemble.
-                                </p>
-                                <ul class="text-gray-700 my-4">
-                                    <li class="my-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-4 h-4 mr-2"
-                                            fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                        </svg>
-                                        Développement sur mesure
-                                    </li>
-                                    <li class="my-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-4 h-4 mr-2"
-                                            fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                        </svg>
-                                        Responsive Design
-                                    </li>
-                                    <li class="my-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-4 h-4 mr-2"
-                                            fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                        </svg>
-                                        Communication directe par WhatsApp
-                                    </li>
-                                </ul>
-
-                                <a href="https://tally.so/r/mJqQ9R" target="_blank"
-                                    class="bg-secondary-950 text-white py-3 px-6 rounded-full">
-                                    Demandez un devis personnalisé
-                                </a>
-                            </div>
-                            <div class="md:flex md:flex-col items-start border border-copper-200 p-4 py-8 rounded-xl">
-                                <p class="bg-copper-400 text-white py-1 px-4 rounded-full mb-4 flex ">
-                                    Application mobile (Android & iOS)
-                                </p>
-                                <p class="text-2xl">À partir de 2000 USD</p>
-                                <p class="font-extralight text-gray-600 mt-4">
-                                    Idéal pour proposer une application mobile multiplateforme a vos clients.
-                                </p>
-                                <ul class="text-gray-700 my-4">
-                                    <li class="my-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-4 h-4 mr-2"
-                                            fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                        </svg>
-                                        Développement sur mesure
-                                    </li>
-                                    <li class="my-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-4 h-4 mr-2"
-                                            fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                        </svg>
-                                        Responsive Design
-                                    </li>
-                                    <li class="my-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-4 h-4 mr-2"
-                                            fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                        </svg>
-                                        Communication directe par WhatsApp
-                                    </li>
-                                </ul>
-
-                                <a href="https://tally.so/r/mJqQ9R" target="_blank"
-                                    class="bg-secondary-950 text-white py-3 px-6 rounded-full">
-                                    Demandez un devis personnalisé
-                                </a>
-                            </div>
-                            <div class="md:flex md:flex-col items-start border border-copper-200 p-4 py-8 rounded-xl">
-                                <p class="bg-copper-400 text-white py-1 px-4 rounded-full mb-4 flex ">
-                                    Site web full-stack (e-commerce, etc.)
-                                </p>
-                                <p class="text-2xl">À partir de 1000 $</p>
-                                <p class="font-extralight text-gray-600 mt-4">
-                                    Parfait pour les entreprises qui souhaitent proposer un site dynamique à
-                                    leurs clients.
-                                </p>
-                                <ul class="text-gray-700 my-4">
-                                    <li class="my-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-4 h-4 mr-2"
-                                            fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                        </svg>
-                                        Développement sur mesure
-                                    </li>
-                                    <li class="my-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-4 h-4 mr-2"
-                                            fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                        </svg>
-                                        Responsive Design
-                                    </li>
-                                    <li class="my-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-4 h-4 mr-2"
-                                            fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                        </svg>
-                                        Communication directe par WhatsApp
-                                    </li>
-                                </ul>
-
-                                <a href="https://tally.so/r/mJqQ9R" target="_blank"
-                                    class="bg-secondary-950 text-white py-3 px-6 rounded-full">
-                                    Demandez un devis personnalisé
-                                </a>
-                            </div>
-                            <div
-                                class="md:flex md:flex-col items-start border border-copper-200 p-4 py-8 rounded-xl md:col-span-3">
-                                <p class="bg-copper-400 text-white py-1 px-4 rounded-full mb-4 flex ">
-                                    Besoin d'une solution sur-mesure ?
-                                </p>
-                                <p class="text-2xl md:text-center">
-                                    Contactez-moi pour un devis personnalisé
-                                </p>
-                                <p class="font-extralight text-gray-600 mt-4 md:text-center">
-                                    Pour ceux qui veulent se concentrer sur leur cœur de métier pendant que je m'occupe
-                                    de tout.
-                                </p>
-                                <ul class="md:flex gap-4 text-gray-700 my-4">
-                                    <li class="my-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-4 h-4 mr-2"
-                                            fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                        </svg>
-                                        Design personnalisé
-                                    </li>
-                                    <li class="my-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-4 h-4 mr-2"
-                                            fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                        </svg>
-                                        Support, assistance et mises à jour régulières
-                                    </li>
-                                    <li class="my-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-4 h-4 mr-2"
-                                            fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                        </svg>
-                                        Hébergement et gestion
-                                    </li>
-                                    <li class="my-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-4 h-4 mr-2"
-                                            fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                        </svg>
-                                        Communication directe par WhatsApp
-                                    </li>
-                                </ul>
-
-                                <a href="https://tally.so/r/mJqQ9R" target="_blank"
-                                    class="bg-secondary-950 text-white py-3 px-6 rounded-full">
-                                    Demandez un devis personnalisé
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer class="w-full bg-primary-100 text-gray-950 py-12">
-            <div class="max-w-6xl m-auto px-6">
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <div>
-                        <h3 class="text-lg font-bold mb-4">À propos</h3>
-                        <p class="text-sm leading-relaxed">
-                            Je suis Vander Otis, développeur web et mobile freelance basé en RDC. J'accompagne les
-                            entreprises dans leur transformation numérique grâce à des solutions modernes et
-                            efficaces.
+        <section id="about" class="w-full bg-white py-16 pt-32 md:pt-0">
+            <div class="max-w-4xl m-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-gray-800 text-center mb-8 pt-4">
+                    À propos
+                </h2>
+                <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
+                    <div class="w-full text-gray-600">
+                        <p class="text-xl leading-relaxed mb-4 font-light">
+                            <span class="font-bold">Pourquoi Maël Conception ?</span> <br>
+                            Parce que chaque projet mérite une solution unique et
+                            adaptée.
+                            Je conçois des sites web et des applications mobiles qui reflètent l'essence de votre
+                            entreprise
+                            et captivent votre audience.
+                        </p>
+                        <p class="text-2xl leading-relaxed my-8 font-bold">
+                            Mon objectif est de transformer vos idées en outils numériques performants, en mettant
+                            en avant
+                            ce qui rend votre entreprise spéciale. Chaque détail compte pour créer une expérience
+                            utilisateur
+                            mémorable.
+                        </p>
+                        <p class="text-2xl md:text-4xl leading-relaxed mt-8">
+                            Ensemble, construisons des solutions qui feront briller votre entreprise et renforceront
+                            votre lien avec vos clients 🚀
                         </p>
                     </div>
-                    <div>
-                        <h3 class="text-lg font-bold mb-4">Liens rapides</h3>
-                        <ul class="text-sm space-y-2">
-                            <li><a href="#services" class="hover:text-primary-500">Services</a></li>
-                            <li><a href="#about" class="hover:text-primary-500">À propos</a></li>
-                            <li><a href="#offers" class="hover:text-primary-500">Mes offres</a></li>
-                        </ul>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="w-full bg-gray-50 py-16">
+            <div class="max-w-6xl m-auto px-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="rounded-xl">
+                        <div class="flex w-full bg-secondary-400 rounded-xl text-white rounded-full mb-4">
+                            <img src="./assets/graphics/announce.png" alt="announce icon" class="h-auto rounded-xl">
+                        </div>
+                        <div class="px-6">
+                            <h3 class="text-xl font-bold text-gray-800 mb-6">Mon expertise et mes services</h3>
+                            <ul class="flex flex-col gap-2 text-xl text-gray-600 font-extralight">
+                                <li class="py-4 border-t border-gray-500">Conception de sites web</li>
+                                <li class="py-4 border-t border-gray-500">Développement d'applications mobiles
+                                    (Android/iOS)</li>
+                                <li class="py-4 border-t border-gray-500">Responsive Design (design adapté à tous
+                                    les écrans)</li>
+                                <li class="py-4 border-t border-gray-500">Intégration de solutions e-commerce
+                                    (<span>paiement mobile money en afrique</span>)</li>
+                                <li class="py-4 border-t border-gray-500">Optimisation et SEO (Search Engine
+                                    Optimization)</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div>
-                        <h3 class="text-lg font-bold mb-4">Contact</h3>
-                        <ul class="text-sm space-y-2">
-                            <li>Email: <a href="mailto:contact@mael-conception.com"
-                                    class="hover:text-primary-500">contact@mael-conception.com</a></li>
-                            <li>Téléphone: <a href="tel:243974944879" class="hover:text-primary-500">+243
-                                    974 944 879</a>
-                            </li>
-                        </ul>
-                        <div class="flex space-x-4 mt-4">
-                            <a href="https://www.youtube.com/@vanderotis" class="hover:text-red-500">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor"
-                                    viewBox="0 0 24 24">
-                                    <path
-                                        d="M23.498 6.186a2.99 2.99 0 0 0-2.106-2.106C19.622 3.5 12 3.5 12 3.5s-7.622 0-9.392.58a2.99 2.99 0 0 0-2.106 2.106C0 7.956 0 12 0 12s0 4.044.502 5.814a2.99 2.99 0 0 0 2.106 2.106C4.378 20.5 12 20.5 12 20.5s7.622 0 9.392-.58a2.99 2.99 0 0 0 2.106-2.106C24 16.044 24 12 24 12s0-4.044-.502-5.814zM9.75 15.568V8.432L15.75 12l-6 3.568z" />
-                                </svg>
+                    <div class="rounded-xl">
+                        <div class="flex w-full bg-secondary-400 rounded-xl text-white rounded-full mb-4">
+                            <img src="./assets/graphics/heart.png" alt="heart icon" class="h-auto rounded-xl">
+                        </div>
+                        <div class="px-6">
+                            <h3 class="text-xl font-bold text-gray-800 mb-6">Pourquoi me choisir ?</h3>
+                            <ul class="flex flex-col gap-2 text-xl text-gray-600 font-extralight">
+                                <li class="py-4 border-t border-gray-500">
+                                    Je m'adapte à vos besoins et à votre budget pour vous proposer des solutions
+                                    sur-mesure.
+                                </li>
+                                <li class="py-4 border-t border-gray-500">
+                                    Je crée des solutions numériques qui <span class="font-bold">renforcent votre
+                                        image</span> de marque.
+                                </li>
+                                <li class="py-4 border-t border-gray-500">
+                                    <span class="font-bold text-md">Où que vous soyez, je m'adapte.</span> <br>
+                                    De la conception au développement, en passant par l'hébergement et le support
+                                    multilingue, je prends en charge toute la
+                                    partie technique pour que vous puissiez vous concentrer sur votre coeur de
+                                    métier.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="w-full bg-white py-16">
+            <div class="max-w-6xl m-auto px-6 flex flex-col items-center">
+                <h4 class="font-bold text-xl mb-4">Comment je procède ?</h4>
+                <h3 class="font-extrabold text-5xl mb-4 text-center">Un process simple et efficace</h3>
+                <div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+                        <div class="flex flex-col items-center">
+                            <div class="w-32 h-32 flex mb-4 justify-center items-center bg-primary-300 rounded-full">
+                                <h5 class="font-bold text-white text-5xl">1</h5>
+                            </div>
+                            <h4 class="font-bold text-xl">Analyse</h4>
+                            <p class="text-gray-600 text-center">
+                                Je prends le temps de comprendre vos besoins et vos objectifs pour vous proposer
+                                une solution adaptée.
+                            </p>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <div class="w-32 h-32 flex mb-4 justify-center items-center bg-primary-300 rounded-full">
+                                <h5 class="font-bold text-white text-5xl">2</h5>
+                            </div>
+                            <h4 class="font-bold text-xl">Conception</h4>
+                            <p class="text-gray-600 text-center">
+                                Je crée un design unique et moderne qui met en
+                                valeur votre entreprise et vos services.
+                                Pas de surprise, que de la clarté.
+                            </p>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <div class="w-32 h-32 flex mb-4 justify-center items-center bg-primary-300 rounded-full">
+                                <h5 class="font-bold text-white text-5xl">3</h5>
+                            </div>
+                            <h4 class="font-bold text-xl">Développement</h4>
+                            <p class="text-gray-600 text-center">Je développe votre site web ou votre application
+                                mobile en utilisant les dernières technologies pour une expérience optimale.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="offers" class="w-full bg-white bg-gray-50 py-16">
+            <div class="max-w-6xl m-auto px-6 flex flex-col items-center">
+                <h4 class="font-bold text-xl">Mes offres</h4>
+                <h3 class="font-extrabold text-5xl mb-4 text-center">Des solutions adaptées à vos besoins</h3>
+                <div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+                        <div class="md:flex md:flex-col items-start border border-copper-200 p-4 py-8 rounded-xl">
+                            <p class="bg-copper-400 text-white py-1 px-4 rounded-full mb-4 flex ">
+                                Site Vitrine (2-5 pages)
+                            </p>
+                            <p class="text-2xl">À partir de 750 USD</p>
+                            <p class="font-extralight text-gray-600 mt-4">
+                                Parfait pour présenter votre activité de manière complète et qui vous ressemble.
+                            </p>
+                            <ul class="text-gray-700 my-4">
+                                <li class="my-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-4 h-4 mr-2"
+                                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                    Développement sur mesure
+                                </li>
+                                <li class="my-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-4 h-4 mr-2"
+                                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                    Responsive Design
+                                </li>
+                                <li class="my-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-4 h-4 mr-2"
+                                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                    Communication directe par WhatsApp
+                                </li>
+                            </ul>
+
+                            <a href="https://tally.so/r/mJqQ9R" target="_blank"
+                                class="bg-secondary-950 text-white py-3 px-6 rounded-full">
+                                Demandez un devis personnalisé
                             </a>
-                            <a href="https://www.linkedin.com/in/vancodes/" class="hover:text-blue-500">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor"
-                                    viewBox="0 0 24 24">
-                                    <path
-                                        d="M22.23 0H1.77C.79 0 0 .79 0 1.77v20.46C0 23.21.79 24 1.77 24h20.46c.98 0 1.77-.79 1.77-1.77V1.77C24 .79 23.21 0 22.23 0zM7.09 20.45H3.64V9.02h3.45v11.43zm-1.73-13c-1.1 0-1.99-.89-1.99-1.99s.89-1.99 1.99-1.99 1.99.89 1.99 1.99-.89 1.99-1.99 1.99zm15.09 13h-3.45v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3.45V9.02h3.31v1.56h.05c.46-.87 1.59-1.79 3.27-1.79 3.5 0 4.15 2.3 4.15 5.29v6.37z" />
-                                </svg>
+                        </div>
+                        <div class="md:flex md:flex-col items-start border border-copper-200 p-4 py-8 rounded-xl">
+                            <p class="bg-copper-400 text-white py-1 px-4 rounded-full mb-4 flex ">
+                                Application mobile (Android & iOS)
+                            </p>
+                            <p class="text-2xl">À partir de 2000 USD</p>
+                            <p class="font-extralight text-gray-600 mt-4">
+                                Idéal pour proposer une application mobile multiplateforme a vos clients.
+                            </p>
+                            <ul class="text-gray-700 my-4">
+                                <li class="my-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-4 h-4 mr-2"
+                                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                    Développement sur mesure
+                                </li>
+                                <li class="my-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-4 h-4 mr-2"
+                                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                    Responsive Design
+                                </li>
+                                <li class="my-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-4 h-4 mr-2"
+                                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                    Communication directe par WhatsApp
+                                </li>
+                            </ul>
+
+                            <a href="https://tally.so/r/mJqQ9R" target="_blank"
+                                class="bg-secondary-950 text-white py-3 px-6 rounded-full">
+                                Demandez un devis personnalisé
                             </a>
-                            <a href="https://wa.me/243974944879" class="hover:text-green-500">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor"
-                                    viewBox="0 0 24 24">
-                                    <path
-                                        d="M20.52 3.48A11.93 11.93 0 0 0 12 0C5.37 0 0 5.37 0 12c0 2.11.55 4.17 1.6 6.01L0 24l6.26-1.58A11.93 11.93 0 0 0 12 24c6.63 0 12-5.37 12-12 0-3.2-1.25-6.22-3.48-8.52zM12 22.05c-1.85 0-3.66-.5-5.25-1.45l-.38-.23-3.71.94.99-3.62-.25-.38A9.93 9.93 0 0 1 2.05 12c0-5.46 4.44-9.9 9.9-9.9 2.65 0 5.14 1.03 7.01 2.9a9.93 9.93 0 0 1 2.9 7.01c0 5.46-4.44 9.9-9.9 9.9zm5.27-7.48c-.29-.15-1.71-.84-1.98-.94-.27-.1-.47-.15-.66.15-.19.29-.76.94-.93 1.13-.17.19-.34.21-.63.07-.29-.15-1.22-.45-2.33-1.43-.86-.76-1.44-1.7-1.61-1.99-.17-.29-.02-.45.13-.6.13-.13.29-.34.43-.51.15-.17.19-.29.29-.48.1-.19.05-.36-.02-.51-.07-.15-.66-1.6-.91-2.2-.24-.58-.49-.5-.66-.51h-.56c-.19 0-.5.07-.76.36-.26.29-1 1-.1 2.44.88 1.44 1.94 2.4 2.21 2.58.29.19.57.29.78.36.19.07.5.07.63-.1.13-.17.76-.88.96-1.19.19-.29.39-.24.66-.12.29.12 1.84.87 2.16 1.03.31.15.52.22.6.34.07.12.07.7-.17 1.37-.24.67-1.42 1.3-1.95 1.45z" />
-                                </svg>
+                        </div>
+                        <div class="md:flex md:flex-col items-start border border-copper-200 p-4 py-8 rounded-xl">
+                            <p class="bg-copper-400 text-white py-1 px-4 rounded-full mb-4 flex ">
+                                Site web full-stack (e-commerce, etc.)
+                            </p>
+                            <p class="text-2xl">À partir de 1500 $</p>
+                            <p class="font-extralight text-gray-600 mt-4">
+                                Parfait pour les entreprises qui souhaitent proposer un site dynamique à
+                                leurs clients.
+                            </p>
+                            <ul class="text-gray-700 my-4">
+                                <li class="my-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-4 h-4 mr-2"
+                                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                    Développement sur mesure
+                                </li>
+                                <li class="my-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-4 h-4 mr-2"
+                                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                    Responsive Design
+                                </li>
+                                <li class="my-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-4 h-4 mr-2"
+                                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                    Communication directe par WhatsApp
+                                </li>
+                            </ul>
+
+                            <a href="https://tally.so/r/mJqQ9R" target="_blank"
+                                class="bg-secondary-950 text-white py-3 px-6 rounded-full">
+                                Demandez un devis personnalisé
+                            </a>
+                        </div>
+                        <div
+                            class="md:flex md:flex-col items-start border border-copper-200 p-4 py-8 rounded-xl md:col-span-3">
+                            <p class="bg-copper-400 text-white py-1 px-4 rounded-full mb-4 flex ">
+                                Besoin d'une solution sur-mesure ?
+                            </p>
+                            <p class="text-2xl md:text-center">
+                                Contactez-moi pour un devis personnalisé
+                            </p>
+                            <p class="font-extralight text-gray-600 mt-4 md:text-center">
+                                Pour ceux qui veulent se concentrer sur leur cœur de métier pendant que je m'occupe
+                                de tout.
+                            </p>
+                            <ul class="md:flex gap-4 text-gray-700 my-4">
+                                <li class="my-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-4 h-4 mr-2"
+                                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                    Design personnalisé
+                                </li>
+                                <li class="my-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-4 h-4 mr-2"
+                                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                    Support, assistance et mises à jour régulières
+                                </li>
+                                <li class="my-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-4 h-4 mr-2"
+                                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                    Hébergement et gestion
+                                </li>
+                                <li class="my-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-4 h-4 mr-2"
+                                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                    Communication directe par WhatsApp
+                                </li>
+                            </ul>
+
+                            <a href="https://tally.so/r/mJqQ9R" target="_blank"
+                                class="bg-secondary-950 text-white py-3 px-6 rounded-full">
+                                Demandez un devis personnalisé
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="text-center text-sm mt-8 text-gray-500">
-                    <p>&copy; 2025 Maël conception. Tous droits réservés.</p>
+            </div>
+        </section>
+    </main>
+    <footer class="w-full bg-primary-100 text-gray-950 py-12">
+        <div class="max-w-6xl m-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-lg font-bold mb-4">À propos</h3>
+                    <p class="text-sm leading-relaxed">
+                        Je suis Vander Otis, développeur web et mobile freelance basé en RDC. J'accompagne les
+                        entreprises dans leur transformation numérique grâce à des solutions modernes et
+                        efficaces.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Liens rapides</h3>
+                    <ul class="text-sm space-y-2">
+                        <li><a href="#services" class="hover:text-primary-500">Services</a></li>
+                        <li><a href="#about" class="hover:text-primary-500">À propos</a></li>
+                        <li><a href="#offers" class="hover:text-primary-500">Mes offres</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Contact</h3>
+                    <ul class="text-sm space-y-2">
+                        <li>Email: <a href="mailto:contact@mael-conception.com"
+                                class="hover:text-primary-500">contact@mael-conception.com</a></li>
+                        <li>Téléphone: <a href="tel:243974944879" class="hover:text-primary-500">+243
+                                974 944 879</a>
+                        </li>
+                    </ul>
+                    <div class="flex space-x-4 mt-4">
+                        <a href="https://www.youtube.com/@vanderotis" class="hover:text-red-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M23.498 6.186a2.99 2.99 0 0 0-2.106-2.106C19.622 3.5 12 3.5 12 3.5s-7.622 0-9.392.58a2.99 2.99 0 0 0-2.106 2.106C0 7.956 0 12 0 12s0 4.044.502 5.814a2.99 2.99 0 0 0 2.106 2.106C4.378 20.5 12 20.5 12 20.5s7.622 0 9.392-.58a2.99 2.99 0 0 0 2.106-2.106C24 16.044 24 12 24 12s0-4.044-.502-5.814zM9.75 15.568V8.432L15.75 12l-6 3.568z" />
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/vancodes/" class="hover:text-blue-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M22.23 0H1.77C.79 0 0 .79 0 1.77v20.46C0 23.21.79 24 1.77 24h20.46c.98 0 1.77-.79 1.77-1.77V1.77C24 .79 23.21 0 22.23 0zM7.09 20.45H3.64V9.02h3.45v11.43zm-1.73-13c-1.1 0-1.99-.89-1.99-1.99s.89-1.99 1.99-1.99 1.99.89 1.99 1.99-.89 1.99-1.99 1.99zm15.09 13h-3.45v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3.45V9.02h3.31v1.56h.05c.46-.87 1.59-1.79 3.27-1.79 3.5 0 4.15 2.3 4.15 5.29v6.37z" />
+                            </svg>
+                        </a>
+                        <a href="https://wa.me/243974944879" class="hover:text-green-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M20.52 3.48A11.93 11.93 0 0 0 12 0C5.37 0 0 5.37 0 12c0 2.11.55 4.17 1.6 6.01L0 24l6.26-1.58A11.93 11.93 0 0 0 12 24c6.63 0 12-5.37 12-12 0-3.2-1.25-6.22-3.48-8.52zM12 22.05c-1.85 0-3.66-.5-5.25-1.45l-.38-.23-3.71.94.99-3.62-.25-.38A9.93 9.93 0 0 1 2.05 12c0-5.46 4.44-9.9 9.9-9.9 2.65 0 5.14 1.03 7.01 2.9a9.93 9.93 0 0 1 2.9 7.01c0 5.46-4.44 9.9-9.9 9.9zm5.27-7.48c-.29-.15-1.71-.84-1.98-.94-.27-.1-.47-.15-.66.15-.19.29-.76.94-.93 1.13-.17.19-.34.21-.63.07-.29-.15-1.22-.45-2.33-1.43-.86-.76-1.44-1.7-1.61-1.99-.17-.29-.02-.45.13-.6.13-.13.29-.34.43-.51.15-.17.19-.29.29-.48.1-.19.05-.36-.02-.51-.07-.15-.66-1.6-.91-2.2-.24-.58-.49-.5-.66-.51h-.56c-.19 0-.5.07-.76.36-.26.29-1 1-.1 2.44.88 1.44 1.94 2.4 2.21 2.58.29.19.57.29.78.36.19.07.5.07.63-.1.13-.17.76-.88.96-1.19.19-.29.39-.24.66-.12.29.12 1.84.87 2.16 1.03.31.15.52.22.6.34.07.12.07.7-.17 1.37-.24.67-1.42 1.3-1.95 1.45z" />
+                            </svg>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </footer>
-    </main>
-    </main>
+            <div class="text-center text-sm mt-8 text-gray-500">
+                <p>&copy; 2025 Maël conception. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
 
     <script>
         const menuToggle = document.getElementById('menu-toggle');
